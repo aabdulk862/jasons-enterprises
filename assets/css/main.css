@@ -1561,7 +1561,7 @@ form textarea:focus {
 }
 
 form textarea {
-  height: 15em;
+  height: 10em;
 }
 
 form ::-webkit-input-placeholder {
