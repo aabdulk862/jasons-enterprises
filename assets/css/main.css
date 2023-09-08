@@ -2026,6 +2026,13 @@ ul.social li a.fa-facebook {
 ul.social li a.fa-facebook:hover {
   background: #4c6aa8;
 }
+ul.social li a.fa-instagram {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+ul.social li a.fa-instagram:hover {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
 
 ul.social li a.fa-twitter {
   background: #2daae4;
@@ -2268,7 +2275,7 @@ ul.social li a.fa-google-plus:hover {
 /* Banner */
 
 #banner {
-  background: url("../../images/garage.png");
+  background: url("../../images/workshop.png");
   background-position: center center;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -2279,7 +2286,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #banner header {
-  background-color: rgba(34, 30, 31, 0.98);
+  background-color: rgba(34, 30, 31, 0.932);
   display: inline-block;
   padding: 2.5em 5em;
   border-radius: 5px;
