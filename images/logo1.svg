@@ -5,13 +5,13 @@
 <path d="M574.026 462.419V495H414.029V462.419H574.026ZM422.122 192.852V495H382.071V192.852H422.122ZM552.859 322.759V355.339H414.029V322.759H552.859ZM571.951 192.852V225.64H414.029V192.852H571.951Z" fill="black"/>
 </g>
 <defs>
-<filter id="filter0_d_91785_15" x="113.999" y="187.852" width="471.028" height="326.299" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_91785_15" x="118.999" y="192.852" width="459.028" height="314.299" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="1" dy="5"/>
-<feGaussianBlur stdDeviation="5"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8 0"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_91785_15"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_91785_15" result="shape"/>
 </filter>
