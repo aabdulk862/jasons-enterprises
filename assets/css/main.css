@@ -189,7 +189,7 @@ textarea,
 select {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #5d5d5d;
+  color: #000000;
   font-size: 14pt;
   line-height: 1.75em;
 }
@@ -309,6 +309,60 @@ table {
   .container {
     width: calc(100% - 40px);
   }
+}
+/* Carousel */
+.slider-container{
+  display: grid;
+  place-items: center;
+}
+
+.slider {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #827a7c;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
 }
 
 /* Row */
@@ -2370,7 +2424,7 @@ ul.social li a.fa-google-plus:hover {
 
 #main {
   position: relative;
-  background: #f7f7f7;
+  background: #ececec;
   padding: 4em 0 4em 0;
 }
 
@@ -2577,7 +2631,9 @@ ul.social li a.fa-google-plus:hover {
 
 @media screen and (max-width: 980px) {
   /* Basic */
-
+  #desc{
+    padding-top: 20px;
+  }
   html,
   body {
     overflow-x: hidden;
