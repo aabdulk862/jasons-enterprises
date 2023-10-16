@@ -311,7 +311,7 @@ table {
   }
 }
 /* Carousel */
-.slider-container{
+.slider-container {
   display: grid;
   place-items: center;
 }
@@ -1587,12 +1587,13 @@ form label {
   color: #252122;
   font-weight: 400;
   margin: 0 0 0.5em 0;
+  padding-top: 0.8em;
 }
 
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
-form select,
+form input[type="time"] form select,
 form textarea {
   -webkit-appearance: none;
   display: block;
@@ -1688,7 +1689,6 @@ header > p {
   display: block;
   font-style: italic;
   margin: 0.5em 0 0 0;
-  padding-bottom: 0.5em;
 }
 
 header.major {
@@ -2080,11 +2080,25 @@ ul.social li a.fa-facebook:hover {
   background: #4c6aa8;
 }
 ul.social li a.fa-instagram {
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
 }
 
 ul.social li a.fa-instagram:hover {
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
 }
 
 ul.social li a.fa-twitter {
@@ -2631,7 +2645,7 @@ ul.social li a.fa-google-plus:hover {
 
 @media screen and (max-width: 980px) {
   /* Basic */
-  #desc{
+  #desc {
     padding-top: 20px;
   }
   html,
