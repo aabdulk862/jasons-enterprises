@@ -1868,6 +1868,35 @@ button.large,
 
 /* List */
 
+.services {
+  list-style: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.services li {
+  display: flex;
+  align-items: center;
+  padding: 0.7em;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  margin-bottom: 0.6em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+
+.services li::before {
+  content: "\2713";
+  font-size: 1.5em;
+  margin-right: 10px;
+  color: #239e46;
+}
+
+.services li p {
+  margin: 0;
+}
+
 ul {
   list-style: disc;
   padding-left: 1em;
