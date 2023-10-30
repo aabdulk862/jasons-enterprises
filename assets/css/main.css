@@ -218,8 +218,7 @@ sup {
 }
 
 blockquote {
-  border-left: solid 0.75em #dddddd;
-  padding: 1em 0 1em 1.5em;
+  padding: 1em 0 1em 1em;
   font-style: italic;
 }
 
@@ -277,6 +276,11 @@ ol,
 dl,
 table {
   margin-bottom: 2em;
+}
+
+.map-div{
+  text-align: center;
+  padding-bottom: 1.5em;
 }
 
 /* Container */
@@ -2467,7 +2471,7 @@ ul.social li a.fa-google-plus:hover {
 
 #main {
   position: relative;
-  background: #ececec;
+  background: #f7f7f7;
   padding: 4em 0 4em 0;
 }
 
@@ -2484,7 +2488,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #main .major h2 {
-  background: #f7f7f7 url("images/bg.png");
+  background: #f7f7f7 ;
 }
 
 /* Footer */
