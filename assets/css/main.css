@@ -250,7 +250,7 @@ h3 {
   font-size: 1.35em;
 }
 
-.toTop{
+.toTop {
   padding-top: 2em;
   text-align: right;
   font-weight: 500;
@@ -1828,7 +1828,7 @@ input[type="submit"].alt2,
 input[type="reset"].alt2,
 button.alt2,
 .button.alt2 {
-  background: #827A7C;
+  background: #827a7c;
 }
 
 input[type="button"].alt2:hover,
@@ -1844,7 +1844,7 @@ input[type="submit"].alt2:active,
 input[type="reset"].alt2:active,
 button.alt2:active,
 .button.alt2:active {
-  background: #827A7C;
+  background: #827a7c;
 }
 
 input[type="button"].icon:before,
@@ -2713,7 +2713,6 @@ ul.social li a.fa-google-plus:hover {
     padding-top: 20px;
   }
 
- 
   html,
   body {
     overflow-x: hidden;

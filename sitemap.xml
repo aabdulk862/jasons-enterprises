@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/</loc>
+  </url>
+  <!-- About Us -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/story/</loc>
+  </url>
+  <!-- Services -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/services/</loc>
+  </url>
+  <!-- Appointments -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/appointments/</loc>
+  </url>
+  <!-- Contact Us -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/contact/</loc>
+  </url>
+  <!-- Testimonials -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/testimonials/</loc>
+  </url>
+  <!-- FAQ's -->
+  <url>
+    <loc> https://jasons-enterprises.netlify.app/faqs/</loc>
+  </url>
+
+</urlset>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jasons-enterprises.netlify.app/sitemap.xml
