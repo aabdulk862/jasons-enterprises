@@ -104,6 +104,22 @@ section {
   display: block;
 }
 
+details {
+  cursor: pointer;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid black;
+  user-select: none;
+}
+
+details > p {
+  margin: 1em;
+}
+
+summary {
+  font-weight: 500;
+}
+
 body {
   line-height: 1;
 }
@@ -1710,7 +1726,6 @@ header.major {
 }
 
 header.major h2 {
-  background: #fff;
   position: relative;
   top: -0.65em;
   display: inline;
@@ -2298,7 +2313,7 @@ ul.social li a.fa-google-plus:hover {
   position: relative;
   background: #ffffff;
   border-bottom: solid 1px #ccc;
-  padding: 5em 0 1em 0;
+  padding: 5em 0 2em 0;
   text-align: center;
 }
 
@@ -2502,7 +2517,7 @@ ul.social li a.fa-google-plus:hover {
 
 #main {
   position: relative;
-  background: #eeeeee;
+  background-color: #e9e9e9;
   padding: 4em 0 4em 0;
 }
 
@@ -2512,14 +2527,15 @@ ul.social li a.fa-google-plus:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("images/bg.png");
+  background: url("images/bg01.png");
   background-size: 100% 100%;
   z-index: 0;
   opacity: 0.1;
 }
 
 #main .major h2 {
-  background: #eeeeee;
+  border-radius: 5px;
+  background-color: #e9e9e9;
 }
 
 /* Footer */
