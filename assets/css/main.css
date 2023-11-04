@@ -1921,19 +1921,16 @@ button.large,
 
 .services {
   list-style: none;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: .5em;
   border: 1px solid #dedede;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
 }
 
 .services li {
   display: flex;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  margin-bottom: 0.7em;
+  margin: 1.5em;
   font-weight: 500;
-  border-bottom: 1px dotted #827a7c;
 }
 
 .services li::before {
@@ -1941,7 +1938,7 @@ button.large,
   font-size: 1.8em;
   margin-right: 10px;
   color: #239e46;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .services li p {
@@ -1949,8 +1946,7 @@ button.large,
 }
 
 .services > h4 {
-  padding-top: 0.2em;
-  padding-bottom: 1.5em;
+  margin: .8em;
 }
 
 ul {
