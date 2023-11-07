@@ -171,6 +171,12 @@ textarea {
 }
 
 /* Basic */
+.appointment-system {
+  /* border: 1px solid #dedede; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  border-top: 1px solid #dedede;
+  padding-top: 1em;
+}
 
 html {
   box-sizing: border-box;
@@ -1921,16 +1927,12 @@ button.large,
 
 .services {
   list-style: none;
-  padding: 0.5em;
-  border: 1px solid #dedede;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0em;
 }
 
 .services li {
   display: flex;
   margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  margin-left: 0.6em;
   font-weight: 500;
 }
 
@@ -1946,8 +1948,9 @@ button.large,
   margin: 0;
 }
 
-.services > h4 {
-  margin: 0.8em;
+.services > p {
+  border-bottom: 1px solid #dedede;
+  font-weight: 700;
 }
 
 ul {
