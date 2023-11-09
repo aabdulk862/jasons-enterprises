@@ -17,6 +17,70 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" href="./images/logo1.svg" type="image/svg+xml" />
+    <!-- <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function sendMail() {
+        emailjs.init("Vtq6uJ7v3Ju0JwmP2");
+        var templateParams = {
+          from_name: document.getElementById("fullname").value || " ",
+          email_id: document.getElementById("email_id").value || " ",
+          mesage: document.getElementById("message").value || " ",
+        };
+        emailjs
+          .send("service_4kisvpd", "template_q1s6fqp", templateParams)
+          .then(
+            function (response) {
+              alert("SUCCESS!", response.status, response.text);
+            },
+            function (error) {
+              alert("FAILED...", error);
+            }
+          );
+      })();
+    </script> -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("Vtq6uJ7v3Ju0JwmP2");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // Validate form fields
+            var name = document.getElementById("name").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var message = document.getElementById("message").value.trim();
+
+            if (!name || !email || !message) {
+              alert("Please fill out all required fields.");
+              return;
+            }
+
+            emailjs.sendForm("service_4kisvpd", "template_q1s6fqp", this).then(
+              function () {
+                console.log("SUCCESS!");
+                document.getElementById("contact-form").reset(); // Clear the form
+                alert("Message sent!");
+              },
+              function (error) {
+                console.log("FAILED...", error);
+                alert("Something went wrong. Please try again later.");
+              }
+            );
+          });
+      };
+    </script>
   </head>
   <body class="no-sidebar is-preload">
     <div id="page-wrapper">
@@ -44,47 +108,26 @@
           <article class="box post">
             <header>
               <h2>Contact Us</h2>
-              <p>
-                We're located in Northern Virginia and our operating hours are
-                between 9:00 AM to 5:00 PM.
-              </p>
             </header>
+            <p>
+              Connect with Jason's Enterprises! Our dedicated team at Jason's
+              Enterprises values open communication and is eager to provide the
+              information you need. Simply fill out the form below, and we'll
+              get back to you promptly. You can also connect with us through our
+              social media channels for the latest updates. Thank you for
+              considering Jason's Enterprises – where your convenience and
+              satisfaction are our top priorities.
+            </p>
             <section>
               <div class="container">
-                <form action="contactus.php">
-                  <label for="fname">First Name</label>
-                  <input
-                    type="text"
-                    id="fname"
-                    name="firstname"
-                    placeholder="Your name.."
-                  />
-
-                  <label for="lname">Last Name</label>
-                  <input
-                    type="text"
-                    id="lname"
-                    name="lastname"
-                    placeholder="Your last name.."
-                  />
-
-                  <label for="eAddress">Email Address</label>
-                  <input
-                    type="text"
-                    id="eAddress"
-                    name="emailAddress"
-                    placeholder="Your email address.."
-                  />
-
-                  <label for="subject">Message</label>
-                  <textarea
-                    id="subject"
-                    name="subject"
-                    placeholder="Write something.."
-                    style="height: 200px"
-                  ></textarea>
-                  <br />
-                  <input type="submit" value="Submit" />
+                <form id="contact-form">
+                  <label>Name</label>
+                  <input type="text" name="user_name" id="name" />
+                  <label>Email</label>
+                  <input type="email" name="user_email" id="email" />
+                  <label>Message</label>
+                  <textarea name="message" id="message"></textarea>
+                  <input style="margin-top: 1em" type="submit" value="Send" />
                 </form>
               </div>
             </section>

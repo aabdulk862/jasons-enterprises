@@ -178,6 +178,7 @@ textarea {
   padding-top: 1em;
 }
 
+
 html {
   box-sizing: border-box;
 }
@@ -1726,7 +1727,7 @@ header > p {
 header.major {
   position: relative;
   text-align: center;
-  border-top: solid 1px #ccc;
+  border-top: solid 1px #827a7c;
   top: 1em;
   margin: 0 0 2em 0;
 }
@@ -1932,7 +1933,7 @@ button.large,
 
 .services li {
   display: flex;
-  margin-top: 1.5em;
+  margin-top: 1em;
   font-weight: 500;
 }
 
@@ -1948,10 +1949,6 @@ button.large,
   margin: 0;
 }
 
-.services > p {
-  border-bottom: 1px solid #dedede;
-  font-weight: 700;
-}
 
 ul {
   list-style: disc;
@@ -2523,7 +2520,7 @@ ul.social li a.fa-google-plus:hover {
 
 #main {
   position: relative;
-  background-color: #ececec;
+  background-color: #E5E4E2;
   padding: 4em 0 4em 0;
 }
 
@@ -2541,7 +2538,7 @@ ul.social li a.fa-google-plus:hover {
 
 #main .major h2 {
   border-radius: 5px;
-  background-color: #ececec;
+  background-color: #E5E4E2;
 }
 
 /* Footer */
